@@ -1,0 +1,24 @@
+{
+  "name": "@vingle/renovate-config",
+  "version": "1.0.0",
+  "description": "Renovate configurations for Vingle",
+  "private": false,
+  "main": "tslint.json",
+  "files": [
+    "renovate.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balmbees/node-standard.git"
+  },
+  "keywords": [
+    "vingle",
+    "renovate"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balmbees/node-standard/issues"
+  },
+  "homepage": "https://github.com/balmbees/node-standard#readme"
+}
