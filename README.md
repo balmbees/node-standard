@@ -4,3 +4,4 @@ A collection of Node.js dev scripts, lints, configurations of [Vingle](https://w
 
 ## Contents
 
+- [tslint-preset](/tslint-preset) TSLint rules for Typescript Projects
