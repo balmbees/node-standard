@@ -1,9 +1,9 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renovate configurations for Vingle",
   "private": false,
-  "main": "tslint.json",
+  "main": "renovate.json",
   "files": [
     "renovate.json"
   ],
