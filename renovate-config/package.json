@@ -1,12 +1,8 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Renovate configurations for Vingle",
   "private": false,
-  "main": "renovate.json",
-  "files": [
-    "renovate.json"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/balmbees/node-standard.git"
@@ -20,5 +16,44 @@
   "bugs": {
     "url": "https://github.com/balmbees/node-standard/issues"
   },
-  "homepage": "https://github.com/balmbees/node-standard#readme"
+  "homepage": "https://github.com/balmbees/node-standard#readme",
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "automerge": false,
+      "automergeType": "branch-push",
+      "minor": {
+        "automerge": true
+      },
+      "packageRules": [
+        {
+          "packageNames": ["aws-sdk"],
+          "schedule": ["after 4am and before 6am on sunday"]
+        }
+      ],
+      "patch": {
+        "automerge": true
+      },
+      "rebaseStalePrs": true,
+      "schedule": [
+        "after 8am and before 8pm every weekday"
+      ],
+      "separateMinorPatch": true,
+      "timezone": "Asia/Seoul",
+      "updateNotScheduled": false
+    },
+    "nodejs8": {
+      "packageRules": [
+        {
+          "packageNames": ["@types/node"],
+          "allowedVersions": "^8.10.0"
+        }
+      ]
+    },
+    "lambda": {
+      "docker": {
+        "enabled": false
+      }
+    }
+  }
 }
