@@ -1,0 +1,31 @@
+{
+  "name": "@vingle/commitlint-preset",
+  "version": "1.0.0",
+  "description": "commitlint rules for Vingle, Inc.",
+  "main": "commitlint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balmbees/node-standard.git"
+  },
+  "keywords": [
+    "commitlint",
+    "vingle"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balmbees/node-standard/issues"
+  },
+  "homepage": "https://github.com/balmbees/node-standard#readme",
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.1.0",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "peerDependencies": {
+    "commitizen": ">= 3.0.0",
+    "husky": ">= 3.0.0"
+  }
+}
