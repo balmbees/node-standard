@@ -1,0 +1,27 @@
+{
+  "name": "@vingle/semantic-release-config",
+  "version": "1.0.0",
+  "description": "semantic-release configuration for Vingle, Inc.",
+  "main": "semantic-release.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balmbees/node-standard.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "vingle"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balmbees/node-standard/issues"
+  },
+  "homepage": "https://github.com/balmbees/node-standard#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16"
+  }
+}
