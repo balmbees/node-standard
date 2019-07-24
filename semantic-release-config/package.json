@@ -1,5 +1,6 @@
 {
   "name": "@vingle/semantic-release-config",
+  "private": false,
   "version": "1.0.2",
   "description": "semantic-release configuration for Vingle, Inc.",
   "main": "semantic-release.json",
