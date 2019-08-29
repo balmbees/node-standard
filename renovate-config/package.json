@@ -1,6 +1,6 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Renovate configurations for Vingle",
   "private": false,
   "repository": {

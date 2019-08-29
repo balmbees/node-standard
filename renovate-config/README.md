@@ -21,7 +21,7 @@ Add the following to `renovate.json`
 
 ```json
 {
-  "extends": ["@vingle", "@vingle/nodejs8"]
+  "extends": ["@vingle", "@vingle:nodejs8"]
 }
 ``` 
 
@@ -33,6 +33,27 @@ For AWS Lambda projects, Use following renovate preset:
 ```json
 {
   "extends": ["@vingle", "@vingle:nodejs8", "@vingle:lambda"]
+}
+```
+
+### Semantic Commit specific presets
+
+For semantic-release dependent projects, Use following renovate preset:
+
+```json
+{
+  "extends": ["@vingle", "@vingle:semantic-commit"]
+}
+```
+
+
+### Assignee presets
+
+For team-specific projects, Use following renovate preset:
+
+```json
+{
+  "extends": ["@vingle", "@vingle:assignees:backend"]
 }
 ```
 
