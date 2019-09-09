@@ -1,6 +1,6 @@
 # Vingle Renovate configuration
 
-A common Renovate configuration for Node.js projects at Vingle.
+A common [Renovate](https://github.com/renovatebot/renovate) configuration for Node.js projects at Vingle.
 
 ## Setup
 
