@@ -1,6 +1,6 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Renovate configurations for Vingle",
   "private": false,
   "repository": {
@@ -36,7 +36,7 @@
       },
       "rebaseStalePrs": true,
       "schedule": [
-        "everyday"
+        "at any time"
       ],
       "timezone": "Asia/Seoul",
       "updateNotScheduled": false,
