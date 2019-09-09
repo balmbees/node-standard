@@ -1,3 +1,6 @@
 {
-  "extends": ["@vingle"]
+  "extends": [
+    "@vingle",
+    "@vingle:semantic-commit"
+  ]
 }
