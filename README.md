@@ -1,4 +1,4 @@
-# Vingle Standard Node.js related packages
+# Vingle Standard Node.js packages
 
 A collection of Node.js dev scripts, lints, configurations of [Vingle](https://www.vingle.net).
 
