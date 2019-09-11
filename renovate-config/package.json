@@ -1,6 +1,6 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Renovate configurations for Vingle",
   "private": false,
   "repository": {
@@ -49,7 +49,6 @@
         "at any time"
       ],
       "timezone": "Asia/Seoul",
-      "updateNotScheduled": false,
       "assignees": ["mooyoul"]
     },
     "nodejs8": {
