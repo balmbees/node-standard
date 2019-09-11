@@ -1,6 +1,6 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Renovate configurations for Vingle",
   "private": false,
   "repository": {
@@ -33,6 +33,12 @@
       ],
       "patch": {
         "automerge": true
+      },
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": [
+          ["after 7am and before 8am on sunday"]
+        ]
       },
       "rebaseStalePrs": true,
       "schedule": [
