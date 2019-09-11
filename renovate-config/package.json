@@ -1,6 +1,6 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Renovate configurations for Vingle",
   "private": false,
   "repository": {
@@ -29,6 +29,10 @@
         {
           "packageNames": ["aws-sdk"],
           "schedule": ["after 4am and before 6am on sunday"]
+        },
+        {
+          "packageNames": ["serverless"],
+          "allowedVersions": "1.51.0"
         }
       ],
       "patch": {
