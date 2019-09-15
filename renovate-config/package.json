@@ -28,7 +28,7 @@
       "packageRules": [
         {
           "packageNames": ["aws-sdk"],
-          "schedule": ["after 4am and before 6am on sunday"]
+          "schedule": ["on sunday"]
         }
       ],
       "patch": {
