@@ -29,10 +29,6 @@
         {
           "packageNames": ["aws-sdk"],
           "schedule": ["after 4am and before 6am on sunday"]
-        },
-        {
-          "packageNames": ["serverless"],
-          "allowedVersions": "1.51.0"
         }
       ],
       "patch": {
