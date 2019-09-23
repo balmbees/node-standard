@@ -73,6 +73,16 @@ Add the following to `package.json`
 Done. 
 Please follow below steps to execute commitlint.
 
+#### Github Actions
+
+Add following to workflow.yml
+
+```yaml
+  steps:
+    - name: CommitLint
+      run: npx commitlint --from ${{ github.event.before || github.event.head || 'master' }} --verbose
+```
+
 #### Travis CI
 
 Install additional dependency:
@@ -83,7 +93,7 @@ $ npm install @commitlint/travis-cli --save-dev
 
 Add following to travis.yml
 
-```bash
+```yaml
 # travis.yml
 language: node_js
 script:
