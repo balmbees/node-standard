@@ -19,11 +19,28 @@ Add the following to `renovate.json`
 
 ### Node.js specific presets
 
+#### Node.js 8
+
 ```json
 {
   "extends": ["@vingle", "@vingle:nodejs8"]
 }
-``` 
+```
+
+#### Node.js 10
+
+```json
+{
+  "extends": ["@vingle", "@vingle:nodejs10"]
+}
+```
+#### Node.js 12
+
+```json
+{
+  "extends": ["@vingle", "@vingle:nodejs12"]
+}
+```
 
 
 ### AWS Lambda specific presets

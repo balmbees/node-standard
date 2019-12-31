@@ -1,6 +1,6 @@
 {
   "name": "@vingle/renovate-config",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Renovate configurations for Vingle",
   "private": false,
   "repository": {
@@ -73,6 +73,22 @@
         {
           "packageNames": ["@types/node"],
           "allowedVersions": "^10.0.0"
+        },
+        {
+          "packageNames": ["npm"],
+          "allowedVersions": "^6.10.2"
+        }
+      ]
+    },
+    "nodejs12": {
+      "packageRules": [
+        {
+          "packageNames": ["node"],
+          "allowedVersions": "^12.0.0"
+        },
+        {
+          "packageNames": ["@types/node"],
+          "allowedVersions": "^12.0.0"
         },
         {
           "packageNames": ["npm"],
