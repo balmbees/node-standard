@@ -1,6 +1,6 @@
 {
   "name": "@vingle/tslint-preset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tslint rules for Vingle",
   "private": false,
   "main": "tslint.json",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/balmbees/node-standard#readme",
   "peerDependencies": {
-    "tslint": "^5.10.0",
+    "tslint": "^5.10.0 || ^6.0.0",
     "typescript": "^3.0.0"
   }
 }
