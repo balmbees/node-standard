@@ -1,3 +1,4 @@
 {
-  "extends": "./semantic-release.json"
+  "extends": "./semantic-release.json",
+  "tagFormat": "semantic-release-config-v${version}"
 }
