@@ -138,6 +138,7 @@
     }
   },
   "devDependencies": {
-    "@vingle/semantic-release-config": "2.0.0"
+    "@vingle/semantic-release-config": "2.0.0",
+    "semantic-release-commit-filter": "1.0.2"
   }
 }
