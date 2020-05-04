@@ -1,0 +1,4 @@
+{
+  "extends": "@vingle/semantic-release-config",
+  "tagFormat": "semantic-release-config-v${version}"
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@vingle/semantic-release-config",
+  "tagFormat": "commitlint-preset-v${version}"
+}
