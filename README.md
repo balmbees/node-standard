@@ -1,3 +1,8 @@
+[![Build Status](https://github.com/balmbees/node-standard/workflows/commitlint-preset/badge.svg)](https://github.com/balmbees/node-standard/actions)
+[![Build Status](https://github.com/balmbees/node-standard/workflows/renovate-config/badge.svg)](https://github.com/balmbees/node-standard/actions)
+[![Build Status](https://github.com/balmbees/node-standard/workflows/semantic-release-config/badge.svg)](https://github.com/balmbees/node-standard/actions)
+[![Build Status](https://github.com/balmbees/node-standard/workflows/tslint-preset/badge.svg)](https://github.com/balmbees/node-standard/actions)
+
 # Vingle Standard Node.js packages
 
 A collection of Node.js dev scripts, lints, configurations of [Vingle](https://www.vingle.net).
