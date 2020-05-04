@@ -1,9 +1,9 @@
 name: semantic-release-config
-  on:
-    push:
-      paths:
-        - '.github/workflows/semantic-release-config.yml'
-        - 'semantic-release-config/**'
+on:
+  push:
+    paths:
+      - '.github/workflows/semantic-release-config.yml'
+      - 'semantic-release-config/**'
 jobs:
   job:
     runs-on: ubuntu-latest
