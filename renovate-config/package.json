@@ -52,10 +52,7 @@
       "schedule": [
         "at any time"
       ],
-      "timezone": "Asia/Seoul",
-      "assignees": [
-        "mooyoul"
-      ]
+      "timezone": "Asia/Seoul"
     },
     "nodejs8": {
       "packageRules": [
@@ -130,11 +127,6 @@
     },
     "semantic-commit": {
       "semanticCommits": true
-    },
-    "assignee:backend": {
-      "assignees": [
-        "mooyoul"
-      ]
     }
   },
   "devDependencies": {
