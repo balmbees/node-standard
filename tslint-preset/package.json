@@ -24,7 +24,7 @@
   "homepage": "https://github.com/balmbees/node-standard#readme",
   "peerDependencies": {
     "tslint": "^6.0.0",
-    "typescript": "^3.0.0"
+    "typescript": "^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
     "@vingle/semantic-release-config": "2.0.0",
